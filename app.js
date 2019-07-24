@@ -21,7 +21,7 @@ app.use(express.static("public"));
 
 // let posts = [];
  mongoose.connect(databaseConnectionURL, {
-   useNewUrlParser: true
+   useNewUrlParser: tru
  });
 
 const postSchema = new mongoose.Schema({
